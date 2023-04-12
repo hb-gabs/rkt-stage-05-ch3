@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Focus Timer</title>
+</head>
+<body>
+    <main>
+        <div class="timer">
+            <div class="time">
+                <span class="minutes">
+                    30
+                </span>
+                <span>
+                    :
+                </span>
+                <span class="seconds">
+                    00
+                </span>
+            </div>
+            <div class="actions">
+                <button class="play">
+                    <img src="assets/images/play.svg" alt="">
+                </button>
+                <button class="pause hide">
+                    <img src="assets/images/pause.svg" alt="">
+                </button>
+                <button class="stop">
+                    <img src="assets/images/stop.svg" alt="">
+                </button>
+                <button class="add">
+                    <img src="assets/images/add.svg" alt="">
+                </button>
+                <button class="remove">
+                    <img src="assets/images/remove.svg" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="audio">
+            <button class="coffee">
+                <img src="assets/images/coffee.svg" alt="">
+                <div class="slidebar" >
+                    <div class="slide" id="coffee-volume">
+
+                    </div>
+                </div>
+            </button>
+            <button class="rain">
+                <img src="assets/images/rain.svg" alt="">
+                <div class="slidebar">
+                    <div class="slide" id="rain-volume">
+                        
+                    </div>
+                </div>
+            </button>
+            <button class="forest">
+                <img src="assets/images/forest.svg" alt="">
+                <div class="slidebar">
+                    <div class="slide" id="forest-volume">
+                        
+                    </div>
+                </div>
+            </button>
+            <button class="fireplace">
+                <img src="assets/images/fireplace.svg" alt="">
+                <div class="slidebar">
+                    <div class="slide" id="fireplace-volume">
+                        
+                    </div>
+                </div>
+            </button>
+        </div>
+    </main>
+    <button class="theme">
+        <img src="assets/images/light-theme.svg" alt="">
+    </button>
+
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>
